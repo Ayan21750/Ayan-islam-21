@@ -6,7 +6,7 @@ module.exports.config = {
     name: "help",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "AYAN ISLAM",
     description: "Shows all commands with details",
     commandCategory: "system",
     usages: "[command name/page number]",
@@ -22,17 +22,12 @@ module.exports.languages = {
         "moduleInfo": `╭━━━━━━━━━━━━━━━━╮
 ┃ ✨ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐈𝐍𝐅𝐎 ✨
 ┣━━━━━━━━━━━┫
-┃ 🔖 Name: %1
-┃ 📄 Usage: %2
-┃ 📜 Description: %3
-┃ 🔑 Permission: %4
-┃ 👨‍💻 Credit: %5
-┃ 📂 Category: %6
-┃ ⏳ Cooldown: %7s
+┃ 🔖 Name: AYAN ISLAM
+┃ 📄 Usage: 19+
 ┣━━━━━━━━━━━━━━━━┫
-┃ ⚙ Prefix: %8
-┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ ⚙ Prefix: %/
+┃ 🤖 Bot Name: HINATA
+┃ 👑 Owner: AYAN ISLAM
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -80,7 +75,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "Hinata 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
     );  
 
     downloadImages(files => {  
@@ -110,7 +105,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+            global.config.BOTNAME || "Hinata 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
         );  
 
         downloadImages(files => {  
@@ -143,8 +138,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "Hinata 𝐂𝐡𝐚𝐭 bot"}
+┃ 👑 Owner: AYAN ISLAM
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
