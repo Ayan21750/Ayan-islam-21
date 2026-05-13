@@ -28,19 +28,18 @@ module.exports.run = async function ({ api, event }) {
 ║ 🔗 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ╠═════════════════════ ✿
 ║ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
-║ fb.com/61553860037667
-║ 💬 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
-║ m.me/61553860037667
+║https://www.facebook.com/share/17DVGdvgue/
+║ 💬 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :https://www.facebook.com/share/17DVGdvgue/
 ║ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
 ║ wa.me/01824400079
 ╚═════════════════════ ✿
 `;
 
   const images = [
-    "https://i.imgur.com/8WBso8x.png",
-    "https://i.imgur.com/0VZu5eY.png",
-    "https://i.imgur.com/bkixgPK.jpeg",
-    "https://i.imgur.com/z6G6L4c.jpeg"
+    "https://files.catbox.moe/z9g88o.jpg",
+    "https://files.catbox.moe/z9g88o.jpg",
+    "https://files.catbox.moe/z9g88o.jpg",
+    "https://files.catbox.moe/z9g88o.jpg"
   ];
 
   const randomImg = images[Math.floor(Math.random() * images.length)];
