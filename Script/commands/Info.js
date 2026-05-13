@@ -45,8 +45,6 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 ╭⭓ ⪩ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ⪨
 │
 ├─ 👑 𝗡𝗮𝗺𝗲 : AYAN ISLAM
-├─ 📲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
-│ facebook.com/61553860037667
 ├─ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
 │ wa.me/+8801824400079
 │
@@ -63,10 +61,10 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
  😍─꯭─⃝‌‌Hinata 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭😘`;
 
  const imgLinks = [
- "https://i.imgur.com/zqsuJnX.jpeg",
- "https://i.imgur.com/sxSn1K3.jpeg",
- "https://i.imgur.com/wu0iDqS.jpeg",
- "https://i.imgur.com/Huz3nAE.png"
+ "https://files.catbox.moe/z9g88o.jpg",
+ "https://files.catbox.moe/z9g88o.jpg",
+ "https://files.catbox.moe/z9g88o.jpg",
+ "https://files.catbox.moe/z9g88o.jpg"
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
